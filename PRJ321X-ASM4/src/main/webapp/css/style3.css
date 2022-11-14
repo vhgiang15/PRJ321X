@@ -1,0 +1,475 @@
+* {
+	box-sizing: border-box;
+}
+
+.logo {
+	text-align: center !important;
+	font-family: 'Segoe Script';
+	font-size: 30px !important;
+}
+
+.row {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.navbar-form {
+	margin-bottom: 0px !important;
+	margin-left: 30px !important;
+	padding: 0px !important;
+}
+
+.left-menu {
+	height: 100%;
+	padding: 0px;
+	background-color:rgb(15,122,183);
+}
+
+.navbar-header {
+	margin-left: 20px;
+}
+
+.navbar {
+	margin-bottom: 15px;
+	font-size: 15px !important;
+	line-height: 1.42857143 !important;
+	background-color: #f01a48 !important;
+}
+
+.nav {
+	margin-right: 20px !important;
+}
+
+.form-control {
+	height: 33px !important;
+	margin: 5px !important;
+}
+
+.dropdown-menu {
+	background-color: #f01a48 !important;
+	color: black !important;
+}
+
+.media {
+	margin: 5px 0px !important;
+}
+
+.media-left {
+	margin: 0px !important;
+	padding: 0 !important;
+	width: 50px !important;
+}
+
+.media-object {
+	width: 130px;
+}
+
+.media-heading {
+	color: blue;
+}
+
+.media-heading a {
+	color: blue !important;
+}
+
+.media-heading a:hover {
+	color: red !important;
+}
+
+.product {
+	max-height: 700px;
+	overflow: auto;
+}
+.productOrder {
+	max-height: 700px;
+	height: 700px;
+	overflow: auto;
+}
+
+.popular_product {
+	position: relative;
+	height: 290px !important;
+	width: 80% !important;
+	color: blue;
+}
+
+.text_popular {
+	font-size: 20px;
+}
+
+.item {
+	position: absolute;
+	top: 10%;
+	right: 5%;
+	width: 100%;
+	height: 80%;
+}
+
+.cart {
+	height: 200px;
+	width: 100%;
+	color: blue;
+}
+
+.cart p {
+	color: black;
+}
+
+.summary_info {
+	height: 30px;
+}
+
+.btn-menu{
+	padding: 0px;
+	width: 100%;
+	
+}
+.size-btn{
+	height: 50px;
+	
+}
+
+.footer {
+	background-color: #f01a48;
+	font-weight: bold;
+	color: white;
+	margin: 0px;
+}
+
+.info, .contact {
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
+}
+
+p, .fo {
+	padding: 0px;
+	margin: 0px;
+}
+
+.navbar-brand, .nav a {
+	color: white !important;
+	font-weight: normal;
+}
+
+.dropdown-menu a:hover {
+	color: black !important;
+}
+
+
+.social_link {
+	list-style-type: none;
+}
+
+.bg {
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	height: 400px;
+}
+
+.container_login {
+	position: absolute;
+	top: 10%;
+	right: 20%;
+	width: 60%;
+	height: 80%;
+}
+
+.text_login {
+	color: white;
+	font-size: 30px;
+}
+
+.text_signup {
+	color: white;
+	font-size: 30px;
+}
+
+.text_login_form, .text_signup_form {
+	color: white !important;
+	font-size: 15px !important;
+}
+
+.background_signup {
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	height: 600px;
+}
+
+.container_signup {
+	position: absolute;
+	top: 5%;
+	right: 20%;
+	width: 60%;
+	height: 50%;
+}
+
+input[type=text], input[type=password], input[type=email] {
+	width: 100%;
+	padding: 5px;
+	margin: 5px 0px;
+	border: none;
+	background: white;
+	height: 30px;
+}
+
+select {
+	width: 100%;
+	padding: 5px;
+	margin: 5px 0px;
+	border: none;
+	background: white;
+}
+
+input[type=text]:focus, input[type=password]:focus,input[type=email]:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+.btn_login, .btn_signup {
+	background-color: #04AA6D;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.btn_cancel {
+	background-color: orange;
+	color: white;
+	padding: 5px 5px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+.forgot_pw {
+	margin-left: 20%;
+}
+
+.btn_login:hover {
+	opacity: 1;
+}
+
+.background_aboutUS {
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+}
+
+.container_aboutUS {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 100%;
+	height: 50%;
+	color: white;
+}
+
+.img_map {
+	width: 100%;
+	height: 300px;
+}
+
+.alert{
+	color:white;
+	font-size: 20px !important;
+}
+
+.pagination {
+	margin-left: 30% !important;
+}
+
+.tableOrder {
+	height: 200px;
+	margin-top: 50px !important;
+
+	
+}
+.order_form{
+	float:left;
+
+}
+
+.control-label a{
+	color: red !important;
+}
+
+
+@media screen and (min-width: 400px) {
+	.popular_product {
+		position: relative;
+		height: 400px !important;
+		width: 80% !important;
+		color: blue;
+	}
+	.text_popular {
+		font-size: 25px;
+	}
+	.item {
+		position: absolute;
+		top: 10%;
+		right: 5%;
+		width: 100%;
+		height: 70%;
+		margin-bottom: 2px;
+	}
+	.background_aboutUS {
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin: 0px;
+		padding: 0px;
+	}
+	.container_aboutUS {
+		position: absolute;
+		top: 30%;
+		left: 10%;
+		width: 100%;
+		height: 300px;
+		color: white;
+		font-size: 18px;
+	}
+	.img_map {
+		width: 100%;
+		height: 400px;
+	}
+.table {
+	height: 700px;
+	margin-top: 50px !important;
+
+	
+}
+
+
+}
+
+@media screen and (min-width: 540px) {
+	.popular_product {
+		position: relative;
+		height: 400px !important;
+		width: 60% !important;
+		color: blue;
+	}
+	.text_popular {
+		font-size: 25px;
+	}
+	.item {
+		position: absolute;
+		top: 10%;
+		right: 5%;
+		width: 100%;
+		margin-bottom: 2px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.bg {
+		height: 700px;
+	}
+	.background_signup {
+		height: 900px;
+	}
+	.container_login {
+		position: absolute;
+		top: 20%;
+		right: 40%;
+		width: 30%;
+		height: 50%;
+	}
+	.container_signup {
+		position: absolute;
+		top: 10%;
+		right: 40%;
+		width: 30%;
+		height: 50%;
+	}
+	.text_login {
+		font-size: 35px;
+	}
+	.text_signup {
+		font-size: 35px;
+	}
+
+	input[type=text], input[type=password] {
+		padding: 15px;
+		margin: 5px 0px;
+		height: 50px;
+	}
+	select {
+		padding: 10px;
+		margin: 10px 0px;
+	}
+	.btn_login, .btn_signup {
+		background-color: #04AA6D;
+		color: white;
+		padding: 10px 20px;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+		opacity: 0.9;
+		margin: 10px 0px;
+	}
+	.popular_product {
+		position: relative;
+		height: 300px !important;
+		width: 100% !important;
+		color: blue;
+	}
+	.text_popular {
+		font-size: 20px;
+	}
+	.item {
+		position: absolute;
+		top: 30%;
+		right: 5%;
+		width: 100%;
+		margin-bottom: 2px;
+	}
+	.cart {
+		height: 200px;
+		width: 100%;
+		color: blue;
+	}
+	.background_aboutUS {
+		position: relative;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin: 0px;
+		padding: 0px;
+	}
+	.container_aboutUS {
+		position: absolute;
+		top: 30%;
+		left: 10%;
+		width: 80%;
+		height: 400px;
+		color: white;
+		font-size: 25px;
+	}
+	.img_map {
+		width: 100%;
+		height: 700px;
+		padding: 0px;
+		margin: 0px;
+	}
+	.col-sm-6 {
+		padding: 0px;
+		margin: 0px;
+	}
+}
